@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deformation-intent-mcp"
+version = "1.0.0"
+description = "DeformationIntent MCP Server - Classify deformation types"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [{name = "Dal Marsters", email = "dal@lushy.app"}]
+dependencies = []
