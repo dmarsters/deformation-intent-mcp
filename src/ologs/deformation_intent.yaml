@@ -1,0 +1,343 @@
+# DeformationIntent Visual Vocabulary Olog
+# Classifies deformation intent and maps to catastrophe theory transformations
+#
+# Architecture:
+#   Layer 1: Pure taxonomy (this file) - zero LLM cost
+#   Layer 2: Deterministic classification and mapping - zero LLM cost
+#   Layer 3: Structured output for Claude synthesis
+
+deformation_intents:
+  structural_collapse:
+    description: "Rigid structures failing under stress"
+    keywords:
+      - collapse
+      - crumble
+      - break
+      - shatter
+      - crack
+      - fracture
+      - rupture
+      - splinter
+    aesthetic_terms:
+      - fractured planes
+      - angular ruptures
+      - stress concentration
+      - failure planes
+      - debris scatter
+      - structural discontinuity
+      - load path failure
+      - progressive collapse
+    visual_vocabulary:
+      primary_forms:
+        - fragmenting masses
+        - angular debris fields
+        - stress fractures
+      surface_qualities:
+        - rough breaks
+        - sharp edges
+        - dusty residue
+      movement_suggestion:
+        - sudden failure
+        - cascading collapse
+        - gravitational fall
+    recommended_catastrophe: fold
+    catastrophe_rationale: >
+      Fold catastrophe represents the sudden discontinuity from continuous 
+      stress - the moment when incremental load produces sudden failure.
+    intensity_mapping:
+      low: "hairline cracks, subtle stress lines"
+      medium: "visible fractures, partial collapse"
+      high: "complete structural failure, debris field"
+
+  fluid_deformation:
+    description: "Smooth, continuous deformations like water or fabric"
+    keywords:
+      - flow
+      - wave
+      - undulate
+      - ripple
+      - fluid
+      - liquid
+      - pour
+      - stream
+      - current
+    aesthetic_terms:
+      - undulating surface
+      - wave propagation
+      - smooth gradients
+      - flowing transitions
+      - continuous morphing
+      - fluid dynamics
+      - laminar flow
+      - surface tension
+    visual_vocabulary:
+      primary_forms:
+        - wave crests
+        - ripple patterns
+        - flowing streams
+      surface_qualities:
+        - smooth continuous
+        - reflective liquid
+        - translucent depths
+      movement_suggestion:
+        - continuous flow
+        - rhythmic oscillation
+        - gravity-driven motion
+    recommended_catastrophe: elliptic_umbilic
+    catastrophe_rationale: >
+      Elliptic umbilic captures wave-like bifurcation with interference 
+      patterns - perfect for fluid dynamics and continuous transformations.
+    intensity_mapping:
+      low: "gentle ripples, subtle surface tension"
+      medium: "defined waves, visible flow patterns"
+      high: "turbulent currents, dramatic splashes"
+
+  crystalline_formation:
+    description: "Angular, geometric growth patterns"
+    keywords:
+      - crystal
+      - geometric
+      - facet
+      - lattice
+      - angular
+      - sharp
+      - prismatic
+      - mineral
+    aesthetic_terms:
+      - geometric faces
+      - lattice structure
+      - angular boundaries
+      - faceted surfaces
+      - symmetric patterns
+      - crystalline order
+      - refractive edges
+      - mineral precision
+    visual_vocabulary:
+      primary_forms:
+        - polyhedra
+        - prismatic columns
+        - faceted clusters
+      surface_qualities:
+        - sharp planar faces
+        - reflective facets
+        - transparent depths
+      movement_suggestion:
+        - static growth
+        - incremental accretion
+        - geometric expansion
+    recommended_catastrophe: cusp
+    catastrophe_rationale: >
+      Cusp catastrophe embodies sharp bifurcation and geometric precision -
+      the irreversible commitment of crystalline structure formation.
+    intensity_mapping:
+      low: "subtle faceting, emerging geometry"
+      medium: "defined crystal faces, clear lattice"
+      high: "dramatic crystalline clusters, prismatic complexity"
+
+  organic_growth:
+    description: "Natural, branching expansion patterns"
+    keywords:
+      - growth
+      - bloom
+      - expand
+      - branch
+      - organic
+      - nature
+      - sprout
+      - flourish
+      - vine
+    aesthetic_terms:
+      - branching structure
+      - organic expansion
+      - fractal growth
+      - hierarchical organization
+      - root systems
+      - dendrite patterns
+      - cellular division
+      - natural emergence
+    visual_vocabulary:
+      primary_forms:
+        - branching networks
+        - radial blooms
+        - hierarchical trees
+      surface_qualities:
+        - textured organic
+        - varied scales
+        - living surfaces
+      movement_suggestion:
+        - gradual expansion
+        - reaching growth
+        - unfolding development
+    recommended_catastrophe: butterfly
+    catastrophe_rationale: >
+      Butterfly catastrophe represents emergence and metamorphosis - the 
+      compromise state allowing gradual transformation between extremes.
+    intensity_mapping:
+      low: "budding forms, early growth"
+      medium: "established branching, visible hierarchy"
+      high: "lush proliferation, complex ecosystems"
+
+  phase_transition:
+    description: "Matter state changes or emergence"
+    keywords:
+      - transition
+      - transform
+      - phase
+      - shift
+      - emerge
+      - solidify
+      - melt
+      - evaporate
+      - crystallize
+    aesthetic_terms:
+      - boundary formation
+      - phase interface
+      - emergent structure
+      - state transition
+      - solidification front
+      - nucleation sites
+      - transformation zone
+      - metastable states
+    visual_vocabulary:
+      primary_forms:
+        - interface boundaries
+        - nucleation clusters
+        - transitional zones
+      surface_qualities:
+        - mixed states
+        - gradient transitions
+        - boundary textures
+      movement_suggestion:
+        - spreading transformation
+        - front propagation
+        - state conversion
+    recommended_catastrophe: fold
+    catastrophe_rationale: >
+      Fold catastrophe captures the threshold moment of phase transition -
+      continuous change producing discontinuous state shift.
+    intensity_mapping:
+      low: "subtle state boundaries, early nucleation"
+      medium: "clear phase interface, active transition"
+      high: "dramatic transformation, complete state change"
+
+  mechanical_deformation:
+    description: "Objects deforming under applied forces"
+    keywords:
+      - twist
+      - stretch
+      - compress
+      - torque
+      - bend
+      - warp
+      - squeeze
+      - pull
+      - tension
+    aesthetic_terms:
+      - stress distribution
+      - strain fields
+      - deformation vectors
+      - compression zones
+      - tension lines
+      - mechanical instability
+      - elastic limits
+      - plastic deformation
+    visual_vocabulary:
+      primary_forms:
+        - warped surfaces
+        - twisted volumes
+        - compressed masses
+      surface_qualities:
+        - stressed materials
+        - visible strain
+        - deformation gradients
+      movement_suggestion:
+        - applied force
+        - resistance tension
+        - yield point approach
+    recommended_catastrophe: swallowtail
+    catastrophe_rationale: >
+      Swallowtail catastrophe captures complex topology with multiple stable 
+      states - appropriate for mechanical systems with memory and hysteresis.
+    intensity_mapping:
+      low: "subtle warping, elastic deformation"
+      medium: "visible distortion, approaching yield"
+      high: "extreme deformation, plastic failure"
+
+  turbulent_chaos:
+    description: "Chaotic, turbulent deformations"
+    keywords:
+      - chaos
+      - turbulent
+      - chaotic
+      - swirl
+      - vortex
+      - turbulence
+      - maelstrom
+      - whirlpool
+    aesthetic_terms:
+      - vortex patterns
+      - chaotic mixing
+      - turbulent eddies
+      - strange attractors
+      - complex flows
+      - fractal boundaries
+      - energy cascade
+      - instability amplification
+    visual_vocabulary:
+      primary_forms:
+        - vortex spirals
+        - chaotic volumes
+        - turbulent fields
+      surface_qualities:
+        - complex textures
+        - multi-scale detail
+        - unpredictable surfaces
+      movement_suggestion:
+        - rotational chaos
+        - mixing turbulence
+        - energy dissipation
+    recommended_catastrophe: butterfly
+    catastrophe_rationale: >
+      Butterfly catastrophe with its four control parameters captures the 
+      complexity of chaotic systems with multiple competing states.
+    intensity_mapping:
+      low: "mild turbulence, organized swirls"
+      medium: "active chaos, visible vortices"
+      high: "extreme turbulence, fractal complexity"
+
+# Cascade configuration - how this brick connects to others
+cascade_integration:
+  position: "entry"
+  description: "Entry point brick that classifies user intent for downstream processing"
+  
+  downstream_bricks:
+    catastrophe_morph:
+      connection_type: "recommended_catastrophe"
+      parameter_mapping:
+        catastrophe_type: "recommended_catastrophe"
+        intensity: "from intent intensity_mapping"
+        emphasis: "surface"
+    
+    diatom_morph:
+      connection_type: "aesthetic_vocabulary"
+      parameter_mapping:
+        shape_preference: "derived from visual_vocabulary.primary_forms"
+        surface_detail: "derived from intent intensity"
+        optical_effects: true
+
+# Intensity profiles for cascade
+intensity_profiles:
+  subtle:
+    cascade_intensity: "moderate"
+    aesthetic_weight: 0.3
+    description: "Light influence on downstream bricks"
+  
+  moderate:
+    cascade_intensity: "moderate"
+    aesthetic_weight: 0.6
+    description: "Balanced influence on downstream bricks"
+  
+  dramatic:
+    cascade_intensity: "dramatic"
+    aesthetic_weight: 0.9
+    description: "Strong influence dominating downstream aesthetics"
